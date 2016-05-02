@@ -1,0 +1,77 @@
+body  {
+	margin: 0px;
+	font-size: 12px;
+	font-family: Verdana;
+	color : #666666;
+	background-color : #FFFFFF;
+	background-image: url(../imagenes/fondo.jpg); 
+	background-position: top left;
+	background-repeat: repeat-x; 
+}
+.tablacentro{
+	background-image: url(../imagenes/fondotablacentro.jpg); 
+	background-position: top left;
+	background-repeat: repeat-y; 
+}
+.tablacentro2{
+	background-image: url(../imagenes/fondotablacentro2.jpg); 
+	background-position: top left;
+	background-repeat: repeat-y; 
+}
+.tablacentro3{
+	background-image: url(../imagenes/fondotablacentro3.jpg); 
+	background-position: top left;
+	background-repeat: repeat-y; 
+}
+a.mbrocos  {
+	text-decoration : none;
+	font-size: 12px;
+	font-family : verdana;
+	color : #00A4D1;
+}
+a.mbrocos:hover  {
+	text-decoration : underline;
+	font-size: 12px;
+	font-family : verdana;
+	color : #FFFFFF;
+}
+a.brcmedia  {
+	text-decoration : none;
+	font-size: 12px;
+	font-family : verdana;
+	color : #00A4D1;
+}
+a.brcmedia:hover  {
+	text-decoration : underline;
+	font-size: 12px;
+	font-family : verdana;
+	color : #FFFFFF;
+}
+a.brcenlaces  {
+	text-decoration : none;
+	font-size: 12px;
+	font-family : verdana;
+	color : #00A4D1;
+}
+a.brcenlaces:hover  {
+	text-decoration : underline;
+	font-size: 12px;
+	font-family : verdana;
+	color : #333333;
+}
+table {
+	font-size: 12px;
+	font-family: Verdana;
+	color : #666666;
+}
+td {
+	font-size: 12px;
+	font-family: Verdana;
+	color : #666666;
+}
+
+th {
+	font-size: 12px;
+	font-family: Verdana;
+	color : #666666;
+}
