@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<!-----------------------------------------javascript--------------------------------------------- -->
+      <!-- mensaje al inicio-->
+    <script type="text/javascript">
+    window.onload=function(){alert('Bienvenido al Mi Proyecto Personal');}
+    </script>
+       <!-- no copien mis cositas-->
+    <script type="text/javascript">
+    document.oncontextmenu = function(){return false}
+    </script>
+<!---------------------------------------javascript----------------------------------------------- -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +34,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   
     </head>
+
     <body>
       <section class="navigation">
         <div class="container-fluid">
@@ -50,7 +61,25 @@
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
-             <center> <h1  class="animated bounceInDown">Programacion Web 2</h1></center>
+             <!--<center> <h1  class="animated bounceInDown">Programacion Web 2</h1></center> -->
+             
+<script type="text/javascript">
+window.setInterval (BlinkIt, 500);
+var color = "red";
+function BlinkIt () {
+var blink = document.getElementById ("blink");
+color = (color == "#ffffff")? "red" : "#ffffff";
+blink.style.color = color;
+blink.style.fontSize='70px';}
+</script>
+<center><div id="blink">Programacion Web 2</div></center>
+<div id="blink" onclick="parent.location='http://norfipc.com'">
+</div>
+
+
+
+
+
                <center><h1 <p  class="animated fadeInUpDelay">El éxito no se logra sólo con cualidades especiales. Es sobre todo un trabajo de constancia, de método y de organización</p></h1> </center>
             </div>
           </div>
