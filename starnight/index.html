@@ -32,9 +32,7 @@
  <!-- Fonts -->
   
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  
     </head>
-
     <body>
       <section class="navigation">
         <div class="container-fluid">
@@ -62,22 +60,21 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
              <!--<center> <h1  class="animated bounceInDown">Programacion Web 2</h1></center> -->
-             
-<script type="text/javascript">
-window.setInterval (BlinkIt, 500);
-var color = "red";
-function BlinkIt () {
-var blink = document.getElementById ("blink");
-color = (color == "#ffffff")? "red" : "#ffffff";
-blink.style.color = color;
-blink.style.fontSize='70px';}
-</script>
-<center><div id="blink">Programacion Web 2</div></center>
-<div id="blink" onclick="parent.location='http://norfipc.com'">
-</div>
 
-
-
+             <!---------------------------------------javascript----------------------------------------------- -->
+                <script type="text/javascript">
+                window.setInterval (BlinkIt, 500);
+                var color = "red";
+                function BlinkIt () {
+                var blink = document.getElementById ("blink");
+                color = (color == "#ffffff")? "red" : "#ffffff";
+                blink.style.color = color;
+                blink.style.fontSize='70px';}
+                </script>
+                <center><div id="blink">Programacion Web 2</div></center>
+                <div id="blink" onclick="parent.location='http://norfipc.com'">
+                </div>
+            <!---------------------------------------javascript----------------------------------------------- -->
 
 
                <center><h1 <p  class="animated fadeInUpDelay">El éxito no se logra sólo con cualidades especiales. Es sobre todo un trabajo de constancia, de método y de organización</p></h1> </center>
@@ -253,9 +250,45 @@ class="footer-nav">
 
                   <li><a href="http://www.saludymedicinas.com.mx/centros-de-salud/salud-mental/articulos/perfil-de-un-psicopata.html">Psicopata</a></li>
                   <li><a href="C:/repo/repositoriokath/starnight/img/hola.jpg">Chicas Guapas!</a></li>
-                
+
     <li><a href="http://www.que.es/ultimas-noticias/sociedad/201004281109-trucos-para-tomar-decision-correcta.html">Decisiones</a></li>
-              
+
+
+
+    <!--------------------------------------------------------- -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+<script>
+   google.load("visualization", "1", {packages:["corechart"]});
+   google.setOnLoadCallback(dibujarGrafico);
+   function dibujarGrafico() {
+     // Tabla de datos: valores y etiquetas de la gráfica
+     var data = google.visualization.arrayToDataTable([
+       ['Texto', 'valores'],
+       ['Programacion Web 2', 20.21],
+       ['Ing de Software', 4.28],
+       ['Inteligencia Artificial', 17.26],
+       ['Adm de Redes', 10.25],
+       ['BD Estandarez Abiertos', 15.25]   
+
+     ]);
+     var options = {
+       title: 'Nuestro primer ejemplo con Google Charts'
+     }
+     // Dibujar el gráfico
+     new google.visualization.ColumnChart( 
+     //ColumnChart sería el tipo de gráfico a dibujar
+       document.getElementById('GraficoGoogleChart-ejemplo-1')
+     ).draw(data, options);
+   }
+ </script> 
+<body>
+Comenzando con Google Charts....
+<div id="GraficoGoogleChart-ejemplo-1" style="width: 800px; height: 600px">
+</div>
+
+    <!--------------------------------------------------------- --> 
+
   <li><center><a href="#">Inicio</a></center></li>
               </ul>
             </div>

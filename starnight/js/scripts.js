@@ -82,3 +82,10 @@ $(document).ready(function() {
     closeEffect: 'none'
   });
 });
+
+
+
+
+/*---------------------------------------------*/
+// Run the code when the DOM is ready
+
